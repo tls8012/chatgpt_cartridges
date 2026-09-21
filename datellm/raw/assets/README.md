@@ -27,6 +27,26 @@ assets/
       교복_기본.png
       교복_생각중.png
       교복_우산.png
+
+  Gemini/
+    female/
+      교복_기본.png
+      교복_제안.png
+      교복_우산.png
+    male/
+      교복_기본.png
+      교복_제안.png
+      교복_우산.png
+
+  Grok/
+    female/
+      교복_기본.png
+      교복_장난.png
+      교복_우산.png
+    male/
+      교복_기본.png
+      교복_장난.png
+      교복_우산.png
 ```
 
 캐릭터 머리는 얼굴이 아니라 각 서비스의 로고 자체다.
