@@ -3,7 +3,7 @@
 GAME_NAME: datellm
 BUILD_VERSION: 1
 FORMAT_VERSION: 1
-CONTENT_ROOT: datellm/distribution
+CONTENT_ROOT: .
 
 ## 데이터 폴더
 
@@ -29,6 +29,8 @@ story_manifest: story/story_manifest.md
 start_story: story/전학 첫날.md
 
 ## 탐색 규약
+
+- 모든 상대경로는 이 `file-manifest.md`가 있는 Distribution 루트를 기준으로 한다.
 
 - character_manifest.md는 이름 있는 주요 캐릭터를 정확한 entity path로 연결하는 작은 색인이다.
 - entities/와 story/는 하위 폴더를 재귀적으로 탐색할 수 있다.
