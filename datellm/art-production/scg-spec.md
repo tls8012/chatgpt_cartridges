@@ -463,6 +463,19 @@ human/logo 각각에 `uniform_neutral`, `uniform_talk`, `uniform_think`, `unifor
 승인된 male human anchor (2026-09-22):
 - `uniform_neutral.png` — 여성판과 같은 백은발·적안을 짧고 거친 비대칭 레이어로 변형한다. 큰 키와 열린 어깨, 넓은 스탠스, 한 손 주머니와 다른 손 허리 자세를 공유하며 얼굴과 시선은 플레이어를 향한다.
 
+승인된 male logo anchor (2026-09-22):
+- `uniform_neutral.png` — male human과 같은 몸·구도에서 머리 전체만 검은 열린 고리와 대각 창 형상으로 교체한다. 내부와 고리의 두 틈은 실제 투명 공간이며, human의 약한 고개 각도에 맞춰 logo 전체를 기울인다.
+
+완료된 male P0 파생 포즈 (2026-09-22):
+- human/logo `uniform_talk.png` — 한 손은 주머니에 유지하고 다른 손바닥을 위로 펼쳐 재치 있게 받아친다. human은 열린 삐딱한 웃음, logo는 같은 목·어깨 각도와 미세한 회전을 대응시킨다.
+- human/logo `uniform_think.png` — 두 팔을 단단히 접고 웃음을 완전히 거둔다. human은 닫힌 입과 낮아진 눈매로 집중하고, logo는 화면 오른쪽 아래로 눌린 각도로 진지함을 표현한다.
+- human/logo `uniform_signature.png` — 한 손은 주머니에 둔 채 플레이어를 향해 핑거건을 내민다. human은 윙크와 닫힌 삐딱한 미소, logo는 화면 왼쪽으로 기운 각도로 장난스러운 내기를 표현한다.
+
+Grok male P0 SCG 8장은 2026-09-22에 완료되었다.
+human/logo 각각에 `uniform_neutral`, `uniform_talk`, `uniform_think`, `uniform_signature`가 존재한다.
+
+Grok P0 SCG 16장은 2026-09-22에 완료되었다.
+
 ---
 
 ## 8. 1차 SCG 목록
