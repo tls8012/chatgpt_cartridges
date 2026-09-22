@@ -1,56 +1,60 @@
 # datellm assets
 
-현재 실제 이미지 에셋은 아직 넣지 않는다.
+현재 실제 SCG 이미지 에셋이 존재한다.
 
-추후 SCG를 묶어서 제작할 때 파일명과 경로만 보고 대상과 상황을 알 수 있게 정리한다.
+## 캐릭터 SCG
 
-예시:
+경로:
 
 ```text
-assets/
-  ChatGPT/
-    female/
-      교복_기본.png
-      교복_손흔듦.png
-      교복_우산.png
-    male/
-      교복_기본.png
-      교복_손흔듦.png
-      교복_우산.png
-
-  Claude/
-    female/
-      교복_기본.png
-      교복_생각중.png
-      교복_우산.png
-    male/
-      교복_기본.png
-      교복_생각중.png
-      교복_우산.png
-
-  Gemini/
-    female/
-      교복_기본.png
-      교복_제안.png
-      교복_우산.png
-    male/
-      교복_기본.png
-      교복_제안.png
-      교복_우산.png
-
-  Grok/
-    female/
-      교복_기본.png
-      교복_장난.png
-      교복_우산.png
-    male/
-      교복_기본.png
-      교복_장난.png
-      교복_우산.png
+raw/assets/characters/
+  chatgpt/
+  claude/
+  gemini/
+  grok/
 ```
 
-캐릭터 머리는 얼굴이 아니라 각 서비스의 로고 자체다.
-눈, 입, 머리카락 같은 인간 얼굴 요소를 별도로 만들지 않는다.
+각 캐릭터는 다음 축으로 구성된다.
 
-남학생/여학생 버전은 한 플레이에 동시에 등장하기 위한 별개 캐릭터가 아니라,
-플레이 시작 설정에 따라 하나가 선택되는 동일 인물의 외형 변형이다.
+- gender: `female` | `male`
+- head_mode: `human` | `logo`
+- pose:
+  - `uniform_neutral`
+  - `uniform_signature`
+  - `uniform_talk`
+  - `uniform_think`
+
+현재 기본 SCG는 총 64개다.
+
+```text
+4 characters × 2 genders × 2 head modes × 4 poses = 64
+```
+
+## 런타임 선택
+
+작품별 추가 컨트롤과 연결한다.
+
+- `gender`
+  - 기본값: `female`
+  - 허용값: `female`, `male`
+- `head_mode`
+  - 기본값: `logo`
+  - 허용값: `logo`, `human`
+
+`gender`는 네 연애 대상의 성별 표현을 함께 결정한다.
+`head_mode`는 동일 인물의 시각 표현 필터이며 세계 설정, 관계, 기억을 변경하지 않는다.
+
+## Logo 모드
+
+logo 모드에서 캐릭터 머리는 얼굴 위에 붙인 표식이 아니라 각 서비스 로고 자체다.
+인간 얼굴, 눈, 입, 머리카락을 별도로 더하지 않는다.
+
+## Human 모드
+
+human 모드는 과도하게 슈르한 시각 표현을 완화하기 위한 일반 미소녀/미소년 표현이다.
+동일 캐릭터의 filter variation이므로 logo 모드와 같은 정체와 캐릭터 코어를 유지한다.
+
+## Event CG
+
+이벤트 CG는 아직 필수 runtime asset으로 포함하지 않는다.
+추가 제작 후 별도 asset build에서 manifest에 반영한다.
