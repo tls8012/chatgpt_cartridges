@@ -1,0 +1,70 @@
+# Character Asset Manifest
+
+각 항목은 실제 raw asset 경로와 파일명 metadata만 사용해 정리했다.
+
+format: `ID | character | gender | head_mode | outfit | pose | path`
+
+A001 | ChatGPT | female | human | uniform | neutral | datellm/raw/assets/characters/chatgpt/female/human/uniform_neutral.png
+A002 | ChatGPT | female | human | uniform | signature | datellm/raw/assets/characters/chatgpt/female/human/uniform_signature.png
+A003 | ChatGPT | female | human | uniform | talk | datellm/raw/assets/characters/chatgpt/female/human/uniform_talk.png
+A004 | ChatGPT | female | human | uniform | think | datellm/raw/assets/characters/chatgpt/female/human/uniform_think.png
+A005 | ChatGPT | female | logo | uniform | neutral | datellm/raw/assets/characters/chatgpt/female/logo/uniform_neutral.png
+A006 | ChatGPT | female | logo | uniform | signature | datellm/raw/assets/characters/chatgpt/female/logo/uniform_signature.png
+A007 | ChatGPT | female | logo | uniform | talk | datellm/raw/assets/characters/chatgpt/female/logo/uniform_talk.png
+A008 | ChatGPT | female | logo | uniform | think | datellm/raw/assets/characters/chatgpt/female/logo/uniform_think.png
+A009 | ChatGPT | male | human | uniform | neutral | datellm/raw/assets/characters/chatgpt/male/human/uniform_neutral.png
+A010 | ChatGPT | male | human | uniform | signature | datellm/raw/assets/characters/chatgpt/male/human/uniform_signature.png
+A011 | ChatGPT | male | human | uniform | talk | datellm/raw/assets/characters/chatgpt/male/human/uniform_talk.png
+A012 | ChatGPT | male | human | uniform | think | datellm/raw/assets/characters/chatgpt/male/human/uniform_think.png
+A013 | ChatGPT | male | logo | uniform | neutral | datellm/raw/assets/characters/chatgpt/male/logo/uniform_neutral.png
+A014 | ChatGPT | male | logo | uniform | signature | datellm/raw/assets/characters/chatgpt/male/logo/uniform_signature.png
+A015 | ChatGPT | male | logo | uniform | talk | datellm/raw/assets/characters/chatgpt/male/logo/uniform_talk.png
+A016 | ChatGPT | male | logo | uniform | think | datellm/raw/assets/characters/chatgpt/male/logo/uniform_think.png
+A017 | Claude | female | human | uniform | neutral | datellm/raw/assets/characters/claude/female/human/uniform_neutral.png
+A018 | Claude | female | human | uniform | signature | datellm/raw/assets/characters/claude/female/human/uniform_signature.png
+A019 | Claude | female | human | uniform | talk | datellm/raw/assets/characters/claude/female/human/uniform_talk.png
+A020 | Claude | female | human | uniform | think | datellm/raw/assets/characters/claude/female/human/uniform_think.png
+A021 | Claude | female | logo | uniform | neutral | datellm/raw/assets/characters/claude/female/logo/uniform_neutral.png
+A022 | Claude | female | logo | uniform | signature | datellm/raw/assets/characters/claude/female/logo/uniform_signature.png
+A023 | Claude | female | logo | uniform | talk | datellm/raw/assets/characters/claude/female/logo/uniform_talk.png
+A024 | Claude | female | logo | uniform | think | datellm/raw/assets/characters/claude/female/logo/uniform_think.png
+A025 | Claude | male | human | uniform | neutral | datellm/raw/assets/characters/claude/male/human/uniform_neutral.png
+A026 | Claude | male | human | uniform | signature | datellm/raw/assets/characters/claude/male/human/uniform_signature.png
+A027 | Claude | male | human | uniform | talk | datellm/raw/assets/characters/claude/male/human/uniform_talk.png
+A028 | Claude | male | human | uniform | think | datellm/raw/assets/characters/claude/male/human/uniform_think.png
+A029 | Claude | male | logo | uniform | neutral | datellm/raw/assets/characters/claude/male/logo/uniform_neutral.png
+A030 | Claude | male | logo | uniform | signature | datellm/raw/assets/characters/claude/male/logo/uniform_signature.png
+A031 | Claude | male | logo | uniform | talk | datellm/raw/assets/characters/claude/male/logo/uniform_talk.png
+A032 | Claude | male | logo | uniform | think | datellm/raw/assets/characters/claude/male/logo/uniform_think.png
+A033 | Gemini | female | human | uniform | neutral | datellm/raw/assets/characters/gemini/female/human/uniform_neutral.png
+A034 | Gemini | female | human | uniform | signature | datellm/raw/assets/characters/gemini/female/human/uniform_signature.png
+A035 | Gemini | female | human | uniform | talk | datellm/raw/assets/characters/gemini/female/human/uniform_talk.png
+A036 | Gemini | female | human | uniform | think | datellm/raw/assets/characters/gemini/female/human/uniform_think.png
+A037 | Gemini | female | logo | uniform | neutral | datellm/raw/assets/characters/gemini/female/logo/uniform_neutral.png
+A038 | Gemini | female | logo | uniform | signature | datellm/raw/assets/characters/gemini/female/logo/uniform_signature.png
+A039 | Gemini | female | logo | uniform | talk | datellm/raw/assets/characters/gemini/female/logo/uniform_talk.png
+A040 | Gemini | female | logo | uniform | think | datellm/raw/assets/characters/gemini/female/logo/uniform_think.png
+A041 | Gemini | male | human | uniform | neutral | datellm/raw/assets/characters/gemini/male/human/uniform_neutral.png
+A042 | Gemini | male | human | uniform | signature | datellm/raw/assets/characters/gemini/male/human/uniform_signature.png
+A043 | Gemini | male | human | uniform | talk | datellm/raw/assets/characters/gemini/male/human/uniform_talk.png
+A044 | Gemini | male | human | uniform | think | datellm/raw/assets/characters/gemini/male/human/uniform_think.png
+A045 | Gemini | male | logo | uniform | neutral | datellm/raw/assets/characters/gemini/male/logo/uniform_neutral.png
+A046 | Gemini | male | logo | uniform | signature | datellm/raw/assets/characters/gemini/male/logo/uniform_signature.png
+A047 | Gemini | male | logo | uniform | talk | datellm/raw/assets/characters/gemini/male/logo/uniform_talk.png
+A048 | Gemini | male | logo | uniform | think | datellm/raw/assets/characters/gemini/male/logo/uniform_think.png
+A049 | Grok | female | human | uniform | neutral | datellm/raw/assets/characters/grok/female/human/uniform_neutral.png
+A050 | Grok | female | human | uniform | signature | datellm/raw/assets/characters/grok/female/human/uniform_signature.png
+A051 | Grok | female | human | uniform | talk | datellm/raw/assets/characters/grok/female/human/uniform_talk.png
+A052 | Grok | female | human | uniform | think | datellm/raw/assets/characters/grok/female/human/uniform_think.png
+A053 | Grok | female | logo | uniform | neutral | datellm/raw/assets/characters/grok/female/logo/uniform_neutral.png
+A054 | Grok | female | logo | uniform | signature | datellm/raw/assets/characters/grok/female/logo/uniform_signature.png
+A055 | Grok | female | logo | uniform | talk | datellm/raw/assets/characters/grok/female/logo/uniform_talk.png
+A056 | Grok | female | logo | uniform | think | datellm/raw/assets/characters/grok/female/logo/uniform_think.png
+A057 | Grok | male | human | uniform | neutral | datellm/raw/assets/characters/grok/male/human/uniform_neutral.png
+A058 | Grok | male | human | uniform | signature | datellm/raw/assets/characters/grok/male/human/uniform_signature.png
+A059 | Grok | male | human | uniform | talk | datellm/raw/assets/characters/grok/male/human/uniform_talk.png
+A060 | Grok | male | human | uniform | think | datellm/raw/assets/characters/grok/male/human/uniform_think.png
+A061 | Grok | male | logo | uniform | neutral | datellm/raw/assets/characters/grok/male/logo/uniform_neutral.png
+A062 | Grok | male | logo | uniform | signature | datellm/raw/assets/characters/grok/male/logo/uniform_signature.png
+A063 | Grok | male | logo | uniform | talk | datellm/raw/assets/characters/grok/male/logo/uniform_talk.png
+A064 | Grok | male | logo | uniform | think | datellm/raw/assets/characters/grok/male/logo/uniform_think.png
