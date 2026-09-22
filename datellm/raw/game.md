@@ -112,6 +112,15 @@ Grok이 플레이어와 둘만의 농담을 많이 쌓아도 Grok 특유의 장�
 
 ## 이미지 방향
 
-현재 raw 원고에는 실제 SCG 이미지를 넣지 않는다.
-추후 캐릭터별 이미지 묶음을 한 번에 제작할 수 있도록,
-에셋 이름은 캐릭터 / 성별 표현 / 복장 / 자세 또는 상황이 드러나게 정리한다.
+실제 캐릭터 SCG는 `raw/assets/characters/`에 존재한다.
+
+에셋은 캐릭터 / 성별 표현 / 머리 표현 / 복장과 포즈가 경로와 파일명에서 드러나도록 정리한다.
+
+현재 기본 SCG는 ChatGPT, Claude, Gemini, Grok 각각에 대해:
+- `female` / `male`
+- `human` / `logo`
+- `uniform_neutral` / `uniform_signature` / `uniform_talk` / `uniform_think`
+
+조합으로 제공된다.
+
+런타임에서는 현재 `gender`와 `head_mode` 컨트롤에 맞는 subset만 사용한다.
