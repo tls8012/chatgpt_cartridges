@@ -1,7 +1,7 @@
 # datellm Distribution
 
 GAME_NAME: datellm
-BUILD_VERSION: 2
+BUILD_VERSION: 3
 FORMAT_VERSION: 1
 CONTENT_ROOT: datellm/distribution
 
@@ -22,9 +22,10 @@ control.head_mode: logo
 - hidden: hidden/
   - 현재 build에는 hidden reveal 또는 hidden story가 없다.
 - assets: assets/
-  - 현재 build에는 ChatGPT, Claude, Gemini, Grok의 캐릭터 SCG manifest가 있다.
+  - 현재 build에는 ChatGPT, Claude, Gemini, Grok의 캐릭터 SCG 64개와 배경 5개의 manifest가 있다.
   - 실제 이미지 선택은 assets/index.md와 그 하위 manifest를 우선한다.
   - 이미지를 선택하기 위해 이미지 파일 자체를 분석하지 않는다.
+  - 현재 event CG manifest는 없다.
 
 ## 작품별 추가 컨트롤
 
@@ -57,5 +58,6 @@ asset_manifest: assets/index.md
 - story unit은 파일 순서가 아니라 현재 조건·인물 동기·세계 상태를 기준으로 사용한다.
 - flags/에 항목이 생기는 향후 build에서는 관련 flag가 해금된 뒤에만 대응 hidden payload를 조회한다.
 - 캐릭터 이미지는 assets/index.md → characters.md 순으로 조회한다.
-- asset 선택 시 현재 `gender`와 `head_mode`를 먼저 적용하고 장면에 맞는 pose를 고른다.
+- 캐릭터 asset 선택 시 현재 `gender`와 `head_mode`를 먼저 적용하고 장면에 맞는 pose를 고른다.
+- 배경 이미지는 assets/index.md → backgrounds.md 순으로 조회하고 현재 장소와 variant가 맞는 항목을 사용한다.
 - manifest에 없는 asset 경로나 variant를 추측해서 만들지 않는다.
