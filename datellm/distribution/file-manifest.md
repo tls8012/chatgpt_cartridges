@@ -6,7 +6,9 @@ FORMAT_VERSION: 1
 CONTENT_ROOT: datellm/distribution
 
 control.gender: female
+control.gender.options: female | male
 control.head_mode: logo
+control.head_mode.options: logo | human
 
 ## 데이터 폴더
 
